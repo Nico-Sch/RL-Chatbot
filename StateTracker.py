@@ -2,6 +2,7 @@ from Database import *
 from Config import *
 import numpy as np, math
 
+#The code of this class is based on https://github.com/maxbren/GO-Bot-DRL
 class StateTracker:
 
 	def __init__(self):
