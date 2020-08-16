@@ -23,3 +23,10 @@ Especially:
 * Training the chatbot: Set IN_TRAINING = True while REAL_USER and PRINTING are False
 * Dialogue between user simulator and bot: Set PRINTING = True while REAL_USER and IN_TRAINING are False
 
+# Main Loop of the Bot
+
+(Images/FlowChart.png)
+
+# Two training sessions and their average success rates
+
+(Images/SuccessRate.png)
