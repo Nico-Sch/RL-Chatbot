@@ -7,11 +7,11 @@ The training is done using a rule-based user simulator. The file dqn_model.h5 co
 
 # Dependencies
 
--python
--numpy
--tensorflow
--keras
--gensim
+* python
+* numpy
+* tensorflow
+* keras
+* gensim
 
 # Run the bot
 
@@ -19,6 +19,6 @@ The file to be executed is DialogueManager.py.
 
 Using the constants in Config.py the dialogue and learning can be modified. 
 Especially:
--Training the chatbot: Set IN_TRAINING = True while REAL_USER and PRINTING are False
--Dialogue between user simulator and bot: Set PRINTING = True while REAL_USER and IN_TRAINING are False
--Dialogue with real user and a UI: Set REAL_USER = True while PRINTING and IN_TRAINING are False
+* Training the chatbot: Set IN_TRAINING = True while REAL_USER and PRINTING are False
+* Dialogue between user simulator and bot: Set PRINTING = True while REAL_USER and IN_TRAINING are False
+* Dialogue with real user and a UI: Set REAL_USER = True while PRINTING and IN_TRAINING are False
