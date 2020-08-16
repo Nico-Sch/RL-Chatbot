@@ -1,0 +1,66 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b7a47c47-663e-4729-aa08-4dfad0d9c9ee</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>DialogueManager.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>RL_Chatbot</Name>
+    <RootNamespace>RL_Chatbot</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|VisualStudio|Python37_64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Agent.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeepQNetwork.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DialogueManager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NaturalLanguageProcessor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateTracker.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserInterface.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserSimulator.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|Python37_64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
