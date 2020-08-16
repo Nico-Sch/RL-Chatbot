@@ -36,7 +36,3 @@ database = [#Rome
 			{ 'restaurantname' : 'Hasia Ung', 'city' : 'Tokyo', 'cuisine' : 'Chinese', 'pricing' : 'Cheap' },
 			{ 'restaurantname' : 'Wang Jo', 'city' : 'Tokyo', 'cuisine' : 'Chinese', 'pricing' : 'Average' },
 			{ 'restaurantname' : 'The Jasmin Dragon', 'city' : 'Tokyo', 'cuisine' : 'Chinese', 'pricing' : 'Expensive' }]
-
-#Todo:
-#Zitate fuer gruende warum sachen benutzt, zb q learning
-#Eigenständigkeitserklärung
