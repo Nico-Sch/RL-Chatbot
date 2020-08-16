@@ -25,8 +25,8 @@ Especially:
 
 # Main Loop of the Bot
 
-(Images/FlowChart.png)
+![](Images/FlowChart.png)
 
 # Two training sessions and their average success rates
 
-(Images/SuccessRate.png)
+![](Images/SuccessRate.PNG)
